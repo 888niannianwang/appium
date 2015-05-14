@@ -85,4 +85,4 @@
 |`--intent-args`|null|(Android-only) 启动 activity 时附带额外的 intent 参数|`--intent-args 0x10200000`|
 |`--dont-stop-app-on-reset`|false|(Android-only) 当包含此参数时，不再在重启前停止应用。||
 |`--debug-log-spacing`|false|在 log 前面增加空格来帮助自我审查||
-|`--suppress-adb-kill-server`|false|(Android-only) 如果被设定，Appium 将不会杀掉 adb server 实例。||
+|`--suppress-adb-kill-server`|false|(Android-only) 如果被设定，阻止Appium杀掉adb实例。||

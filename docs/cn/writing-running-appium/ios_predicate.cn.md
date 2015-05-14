@@ -1,6 +1,10 @@
 ## iOS 谓词(Predicate)
 
+<<<<<<< HEAD
 在查看 *'-ios uiautomation'* 搜索策略时了解 **谓词(Predicate)** 十分必要。 [UIAutomation JavaScript API](https://developer.apple.com/library/ios/documentation/DeveloperTools/Reference/UIAutomationRef/_index.html)有下列几种非常有用的方法:
+=======
+在查看 *'-ios uiautomation'* 搜索策略时了解 **谓词(Predicate)** 十分必要。 [UIAutomation JavaScript API](https://developer.apple.com/library/ios/documentation/DeveloperTools/Reference/UIAutomationRef/)有下列几种非常有用的方法:
+>>>>>>> appium_io/master
 
 ```center
 (UIAElement) UIAElementArray.firstWithPredicate(PredicateString predicateString)
@@ -243,4 +247,8 @@ predicate = "name contains[c] '#{text}' || label contains[c] '#{text}' || value 
 element = execute_script(%Q(au.mainApp().getFirstWithPredicate("#{predicate}");))
 
 puts element.name # Buttons, Various uses of UIButton
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> appium_io/master
